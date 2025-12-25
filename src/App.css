@@ -1,0 +1,42 @@
+.container {
+  width: 350px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+}
+
+button {
+  padding: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 6px;
+  border: 1px solid #ddd;
+}
+li span {
+  flex-grow: 1;
+} 
